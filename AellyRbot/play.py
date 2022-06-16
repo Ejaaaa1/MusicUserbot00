@@ -128,7 +128,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
                     caption=f"""
-**▶ Song In Queue Ke {pos}
+**▶ Song In Queue to {pos}
 🏷 Title: [{songname}]({link})
 💡 Status: Playing
 🎧 Request: {m.from_user.mention}**
